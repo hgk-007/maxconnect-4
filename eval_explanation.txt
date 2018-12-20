@@ -1,0 +1,19 @@
+Evaluation function:find_best_move
+When the user enters the depth value, the evaluation function calculates the utility values for the min and max. 
+
+Based on the state of the game the evaluation function assigns a value.
+
+Whenever there are four occurences say 1111 or 2222 vertically, horizontlly or diagonally the value increases by 1.
+
+Similarly for every three occurences say 111 or 222 vertically or horizontally the value increaes by 0.80 and for two occurences it increases by 0.20.
+
+If there are three values diagonally and theres an empty space in the fourth space then it increases the value by 0.70. 
+
+All these values are negative for the other player. The evaluation function finally sums all these values and returns the utility value.
+
+ find_best_move() - function makes a decision to make a move for the computer
+                    from the given two functions below using minimum and maximum value.
+
+ calculate_minimum_utility() - function calculates the min value.
+    
+ calculate_maximum_utility() - function calculates the max value.
