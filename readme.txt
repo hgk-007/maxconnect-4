@@ -24,7 +24,6 @@ One-move mode:java Maxconnect4 one-move input1.txt output.txt 2
 Interactive mode: java Maxconnect4 interactive input1.txt human-next 2(for user to play first)
                   java Maxconnect4 interactive input1.txt computer-next 2(for computer to play first)
 
-(iv) Code referrence:
-Github 
+
 
 
